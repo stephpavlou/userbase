@@ -3,9 +3,9 @@
 function open_con() {
 
     $host='127.0.0.1';
-    $db_usr='steph';
-    $db_pass='theyellowBartholomew1901!';
-    $db_name='test';
+    $db_usr='user'; //mySQL user
+    $db_pass='password'; //mySQL user's password
+    $db_name='test_ubase';
 
     $dsn='mysql:host=localhost;dbname=test';
 
