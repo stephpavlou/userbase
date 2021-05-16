@@ -11,7 +11,7 @@ This is a simple implementation of a userbase in PHP using mySQL. It utilizes PH
         password VARCHAR(50) NOT NULL,
         uid PRIMARY KEY AUTO_INCREMENT);
 ```
-2. Note the mySQL user used to create the database above. Then locate the file `/site/manage-db/db.con.php` and edit lines `6` and `7` so that the string values for `$db_usr` and `$db_pass` match the user and password used to create the database. This is necessary for the PHP to be able to reach this required database.
+2. Note the mySQL user used to create the database above. Then locate the file `/site/php/db.con.php` and edit lines `6` and `7` so that the string values for `$db_usr` and `$db_pass` match the user and password used to create the database. This is necessary for the PHP to be able to reach this required database.
 3. Once the previous steps and configurations have been completed, the site can then be hosted locally on a given port, `8000` in this example, by navigating to the site's directory and starting a PHP server from the command line, like so:
 ```
      php -S localhost:8000
