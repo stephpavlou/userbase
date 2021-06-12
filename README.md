@@ -1,7 +1,7 @@
 # userbase
 This is a simple implementation of a userbase in PHP using mySQL. It utilizes PHP data objects and prepared statements to defend against injections. In order to run, this site naturally requires that PHP and mySQL are installed and the following configurations:
 
-1. Create a database named `test_ubase` and the table within that database named `users` with three columns: a username, a password, and a unique UID. This can be accomplished with the following SQL:
+1. Create a database named `test_ubase` and a table within that database named `users` with three columns: a username, a password, and a unique UID. This can be accomplished with the following SQL:
 
 ```
     CREATE DATABASE test_ubase;
